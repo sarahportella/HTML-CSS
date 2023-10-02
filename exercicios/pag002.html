@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melhor pizza do mundo!</title>
+    <link rel="stylesheet" type="text/css" href="style2.css" media="screen" />
+</head>
+<body>
+    <header>
+        <h1>Melhor pizza do mundo!</h1>
+        <h2 id="subtitulo">(De acordo com esse site) </h2>
+        <p> Bem vindo ao site que tem a melhor pizza da sua cidade, do seu país e do mundo!</p> 
+    </header>
+        
+    <main>
+        <section id="contact-form">
+            <h2> Meu pedido</h3>
+            <form method="POST" action="place-order.php">
+
+                <h3>Método de entrega</h3>
+                <input name="entrega" type="radio" value="entrega"/> Entrega <br/>
+                <input name="entrega" type="radio" value="retirada"/>  Retirada <br/> 
+
+
+                <h3>Endereço</h3>
+                <input name="endereço1" placeholder="Linha de Endereço 1" class="lg-input" /> <br />
+                <input name="endereço2" placeholder="Linha de Endereço 2" class="lg-input" /><br />
+                <input name="cidade" placeholder="Cidade" class="sm-input" />
+                <input name="estado" placeholder="Estado" class="sm=input" /><br />
+                <input name="cep" placeholder="CEP" class="sm-input" /><br/>
+
+                <h3>Ingredientes</h3>
+                <input name="ingredientes" type="checkbox" value="pepperoni"/> Pepperoni <br />
+                <input name="ingredientes" type="checkbox" value="azeitona"/> Azeitona<br/>
+                <input name="ingredientes" type="checkbox" value="bacon"/> Bacon <br />
+                <input name="ingredientes" type="checkbox" value="cebola" /> Cebela <br />
+                <input name="ingredientes" type="checkbox" value="molho"/> Molho <br />
+                <input name="ingredientes" type="checkbox" value="pimentao" /> Pimentão <br />
+                <input name="ingredientes" type="checkbox" value="mucarela"/> Muçarela <br />
+                
+                
+                <h3>Tamanho</h3>
+                <select name="tamanho">
+                    <option value="brotinho"> Brotinho R$20,00</option>
+                    <option value="grande"> Grande R$30,00</option>
+                    <option value="gigante"> Gigante R$37,00</option>
+                    <option value="monstruosa"> Monstruosa R$45,00</option>
+                </select>
+                <br/><br/>
+                
+                <button type="submit"> Enviar pedido </button>
+
+            </form>
+        </section>
+
+
+        <section>
+            <p> Acesse também nossas <a href="pag003.html">notícias</a></p>
+            <p> Voltar para a primeira <a href="index.html" rel="prev"> página</a></p>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

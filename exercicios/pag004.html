@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melhor pizza do mundo</title>
+</head>
+<body>
+    <h1>Imagens dimâmicas</h1>
+        <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminue o tamanho do seu navegador</p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens-pmg/foto-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens-pmg/foto-m.png" type="image/png">
+            <img src="imagens-pmg/foto-g.png" alt="imagem G">
+        </picture>
+
+        <section>
+            <h1> um pouco de musica</h1>
+                <audio preload="metadata"autoplay controls loop>
+                    <source src="media/icelandic-arpeggios.mp3" type="audio/mpeg">
+                </audio>
+        </section>
+
+        <section>
+            <h1> Um pouco de vídeo</h1>
+                <video controls width="500" poster="video/icebox-tumb.png">
+                    <source src="video/meu-video2.mp4" type="video/mp4">
+                    <source src="video/meu-video2.webm" type="video/webm">
+                    <source src="video/meu-video2.ogv" type="video/ogg">
+                </video>
+            <h1>Inserindo vídeos do youtube</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=34CeiBIFDHnOaNrS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                
+        </section>
+        <p> Clique <a href="index.html"> aqui</a> para voltar pra página anterior</p>
+</body>
+</html>

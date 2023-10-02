@@ -1,0 +1,138 @@
+@charset "UTF-8"
+@font-face {
+    font-family: idroid ;
+    src: url(fontes/idroid.otf) format('opentype');
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;700&family=Kaushan+Script&display=swap');
+
+body{
+    background-color: #84E1AD;
+    width: 100%;
+    margin: 0px;
+}
+
+header {
+    background-image: linear-gradient(to bottom,#3CD681, #154C2E );
+    margin: 0px;   
+}
+
+header {
+    text-align: center;
+}
+
+header> nav {
+    margin-left: 20px;
+    text-align: left;
+    font-weight: 700;
+}
+
+header > nav> a {
+    margin-right: 20px;
+    text-decoration: none;
+
+    color: white;
+}
+
+a:hover{
+    on
+}
+
+main {
+    background-color: white;
+    width: 700px;
+    margin: 0px auto 10px auto;
+    border-radius:  0px 0px 15px 15px;
+}
+
+p {
+    text-indent: 20px;
+    text-align: justify;
+    font-family: sans-serif;
+    margin: 10px;
+    padding-bottom: 10px;
+    
+}
+
+strong{
+    color: #155833;
+    font-weight: 700;
+}
+
+#hd{
+    text-align: center;
+}
+
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+h2 {
+    margin: 0px;
+    padding-top:10px;
+    padding-left: 10px;
+    font-family: 'idroid', sans-serif;
+    color: #155833;
+}
+
+h3 {
+    margin: 10px;
+    padding-left: 5px;
+    font-family: idroid, sans-serif;
+    color:#397554;
+    background-image: linear-gradient( to right, #84E1AD, #fff);
+}
+
+img {
+    margin: auto;
+    width: 100%;
+    margin: 5px auto 5px auto;
+}
+
+#bug{
+    margin: auto;
+    width: 50%;
+    margin: 5px auto 5px auto;
+    a
+}
+
+#video{
+    padding: 15px 30px;
+    background-color: #154C2E;
+}
+
+iframe{
+    width: 100%;
+}
+
+aside{
+    margin:10px;
+    background-color: #84E1AD;
+    border-radius: 10px;
+}
+
+aside>h4{
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #3CD681;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+}
+
+aside>p{
+    margin: 10px;
+    padding-bottom: 10px;
+}
+
+footer {
+    background-color: #1A5C38;
+    padding: 5px;
+}
+
+footer>p{
+    text-align: center;
+    color: white;
+}
+
+footer>p>strong{
+    color: white;
+}

@@ -7,9 +7,16 @@
     padding: 0px;
 }
 
+:root {
+    --fonte-padrao: 'Sriracha', cursive;
+    --fonte-titulo:'Passion One', sans-serif;
+    --fonte-auxiliar: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 html, body {
     min-height: 100vh;
     background-color: darkgrey;
+    font-family: var(--fonte-auxiliar);
 }
 
 header {
@@ -49,6 +56,8 @@ article {
     padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
+    font-family: var(--fonte-padrao);
+    font-size: 2.5vw;
 }
 
 article.normal {
@@ -62,8 +71,9 @@ article.img {
 }
 
 article.img > p {
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.521);
-    width: 400px;
+    padding: 5px;
 }
 
 footer {

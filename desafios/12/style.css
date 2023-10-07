@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Sriracha&display=swap');
 
 * {
@@ -9,8 +10,10 @@
     --fonte-padrao: 'Sriracha', cursive;
     --fonte-titulo:'Passion One', sans-serif;
 }
+
 body {
     background-color: white;
+    min-height: 100vh;
 }
  
 header {
@@ -28,29 +31,63 @@ header > h1 {
     text-align: center;
 }
 
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+    background-color: rgb(37, 37, 37);
+}
+
 header > h2 {
     color: white;
     text-align: center;
-    font: white 30px var(--fonte-padrao);
+    font: rgb(170, 28, 28) 1em var(--fonte-padrao);
 }
 
 main {  
     background-color: white;
 }
 
-article {
+
+
+#article1{
     position: relative;
     height: 700px;
     border: solid black;
 }
 
 #article2{
+    position: relative;
+    height: 700px;
+    border: solid black;
     background: black url(imagens/background001.jpg) center center/cover no-repeat fixed;
 }
 
+#article3{
+    position: relative;
+    height: 700px;
+    border: solid black;
+}
+
+#article5{
+    position: relative;
+    height: 850px;
+    border: solid black;
+}
+
 #article4{
+    position: relative;
+    height: 700px;
+    border: solid black;
     background: black url(imagens/background002.jpg) left top/cover no-repeat fixed;
 }
+
+
 
 #text1 {
     position: absolute;
@@ -71,7 +108,7 @@ article {
     left: 1%;
     transform: 0% -50%;
     background-color: aqua;
-    width: 300px;
+    width: 400px;
     padding: 5px;
     margin: 20px;
     font: 100 30px var(--fonte-padrao);
@@ -84,7 +121,7 @@ article {
     left: 1%;
     transform: 0% -50%;
     background-color: aqua;
-    width: 300px;
+    width: 400px;
     padding: 5px;
     margin: 20px;
     font: 100 30px var(--fonte-padrao);
@@ -97,7 +134,7 @@ article {
     left: 1%;
     transform: 0% -50%;
     background-color: aqua;
-    width: 300px;
+    width: 400px;
     padding: 5px;
     margin: 20px;
     font: 100 30px var(--fonte-padrao);
@@ -110,7 +147,7 @@ article {
     left: 1%;
     transform: 0% -50%;
     background-color: aqua;
-    width: 300px;
+    width: 400px;
     padding: 5px;
     margin: 20px;
     font: 100 30px var(--fonte-padrao);
@@ -119,5 +156,9 @@ article {
 
 footer {
     background-color: black;
+    height: 30px;
+    padding: 5px;
     font: white 20px var(--fonte-padrao);
+    color: white;
+    text-align: center;
 }

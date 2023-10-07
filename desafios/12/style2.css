@@ -32,12 +32,12 @@ header > h1 {
     margin: auto;
     padding: 15px;
     text-align: center;
+    
 }
 
 header > h2 {
     color: white;
     text-align: center;
-    font: rgb(170, 28, 28) 1em var(--fonte-padrao);
 }
 
 a {
@@ -60,6 +60,10 @@ article {
     font-size: 2.5vw;
 }
 
+article > p {
+    padding-bottom:  1em;
+}
+
 article.normal {
     background-color: white;
     color: black;
@@ -68,12 +72,22 @@ article.normal {
 article.img {
     background-color: rgb(94, 94, 94);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px black;
 }
 
 article.img > p {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.521);
     padding: 5px;
+    text-shadow: 1px 1px 0px black;
+}
+
+article#img1 {
+    background: url(imagens/background001.jpg) center center/cover no-repeat fixed;
+}
+
+article#img2 {
+    background: url(imagens/background002.jpg) center center/cover no-repeat fixed;
 }
 
 footer {

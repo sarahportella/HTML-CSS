@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela responsiva</title>
+</head>
+
+<style>
+
+    table {
+        border: 4px solid black;
+        border-collapse: collapse;
+        
+    }
+
+    caption {
+        border: 3px solid black;
+        text-align: center;
+        font: 400;
+        font-size: 1.3em;
+        padding: 8px;
+    }
+
+    th {
+        font: 400;
+        color: gray;
+        border: 2px solid black;
+        text-align: center;
+        padding: 8px;
+    }
+
+    td {
+        font: 400;
+        border: 1px solid black;
+        text-align: center;
+        padding: 8px;
+    }
+
+    .cnome {
+        background-color: pink;
+    }
+
+    div#container {
+        overflow-x: auto;
+    }
+</style>
+
+<body>
+    <h1> Tabelas responsivas</h1>
+
+    <div id="container">
+        <table>
+            <colgroup>
+                <col class="cnome">
+                <col class="csexo">
+                <col class="cidade">
+                <col class="cprof">
+            </colgroup>
+    
+            <caption> Cadastro</caption>
+    
+            <tr>
+                <th scope="col">Nome</th>
+                <th scope="col">Sexo</th>
+                <th scope="col">Idade</th>
+                <th scope="col">Profissão</th>
+                <th scope="col">Doce</th>
+                <th scope="col">Lugar</th>
+                <th scope="col">Flor</th>
+                <th scope="col">Banda</th>
+                <th scope="col">Atividade Física</th>
+                <th scope="col">Cor</th>
+                <th scope="col">Estação</th>
+                <th scope="col">Periodo do dia</th>
+            </tr>
+            <tr>
+                <td>Sarah</td>
+                <td>F</td>
+                <td>27</td>
+                <td>Dev</td>
+                <td>Doce de leite com morango</td>
+                <td>Parque</td>
+                <td>Orquidea</td>
+                <td>Arctic Monkeys</td>
+                <td>Pole</td>
+                <td>Rosa</td>
+                <td>Primavera</td>
+                <td>Noite</td>
+            </tr>
+        </table>
+    </div>
+    </body>
+</body>
+</html>

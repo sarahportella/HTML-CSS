@@ -10,8 +10,14 @@
 
     <form action="cadastro.php" method="get" autocomplete="on">
         <p>
-            <label for="icor">Cor</label>
-            <input type="color" name="cor" id="icor" value="#00ff00">
+            <label for="iest">Estado</label>
+            <select name="est" id="iest"></select>
+                <optgroup label="Sudeste">
+                    <option value="MG">Minas Gerais</option>
+                    <option value="SP" selected>São Paulo</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="ES">Espirito Santo</option>
+                </optgroup>
         </p>
         <p>
             <label for="inivel">Nível de Satisfação</label>

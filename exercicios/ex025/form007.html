@@ -20,8 +20,16 @@
                 </optgroup>
         </p>
         <p>
-            <label for="inivel">Nível de Satisfação</label>
-            <input type="range" name="nivel" id="inivel" >
+            <label for="iprof">Profissão:</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option value="ADM">Administrador</option>
+                <option value="DEV">Desenvolvedor</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="msg">Mensagem:</label><br>
+            <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
         </p>
         <p>
             <input type="submit" value="Enviar">
